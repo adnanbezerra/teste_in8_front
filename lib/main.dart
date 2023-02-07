@@ -9,10 +9,10 @@ void main() {
     MaterialApp(
       initialRoute: '/',
       routes: {
-        '/': (context) => HomePage(),
-        '/user': (context) => UserPage(),
-        '/cart': (context) => CartPage(),
-        '/product': (context) => ProductPage(),
+        '/': (context) => const HomePage(),
+        '/user': (context) => const UserPage(),
+        '/cart': (context) => const CartPage(),
+        '/product': (context) => const ProductPage(),
       },
     ),
   );
